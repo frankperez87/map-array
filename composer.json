@@ -12,7 +12,7 @@
             "MapArray\\":"src/"
         }
     },  
-    "require": {
+    "require-dev": {
         "phpunit/phpunit": "@stable"
     } 
 }
