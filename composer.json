@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-0": {
+            "MapArray\\":"src/"
+        }
+    }, 
+    "require": {
+        "phpunit/phpunit": "@stable"
+    }
+}
