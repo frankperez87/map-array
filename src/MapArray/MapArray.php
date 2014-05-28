@@ -4,8 +4,9 @@ class MapArray {
 
     private $map, $data, $positions;
 
-    public function __construct() {
-
+    public function __construct($data = array()) {
+        if(!empty($data))
+            $this->addData($data);
     }
 
     public function addMap(array $map) {
