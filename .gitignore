@@ -1,3 +1,5 @@
 /index.php
 /vendor
 *.csv
+*.swp
+*.swo
