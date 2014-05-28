@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "049852d79f19d3ea888f511df09ea4fa",
+    "hash": "e7fcfccd8babdd6ede6f48b0a4adbf6b",
     "packages": [
         {
             "name": "phpunit/php-code-coverage",
