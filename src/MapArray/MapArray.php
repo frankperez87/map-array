@@ -29,21 +29,34 @@ class MapArray {
     }
 
     private function setPositions() {
+
+        if(empty($this->data))
+            throw new MapArrayException('$this->data should not be empty.');
+
         $header = array_shift($this->data);
         foreach($header as $k => $v) {
             $map_key = array_search($v, $this->map);
             if($map_key != false)
                 $this->positions[$k] = $map_key;
         }
+
     }
 
     private function cleanData() {
+
+        if(empty($this->data))
+            throw new MapArrayException('$this->data should not be empty.');
+
+        if(empty($this->positions))
+            throw new MapArrayException('$this->positions should not be empty.');
+
         $data = array();
         foreach($this->data as $k => $v) {
             foreach($this->positions as $kk => $vv) {
                 $data[$k][$vv] = $v[$kk];
             }
         }
+
         $this->data = $data;
     }
 
