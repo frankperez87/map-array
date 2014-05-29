@@ -60,6 +60,10 @@ class MapArray {
         $this->data = $data;
     }
 
+    public function getMap() {
+        return $this->map;
+    }
+
     public function getData() {
         return $this->data;
     }
