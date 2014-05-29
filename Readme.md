@@ -5,6 +5,8 @@ This class allows you to easily map the header of array and its data to a set of
 ## Example
 
 ```php
+require 'vendor/autoload.php';
+
 use MapArray\MapArray;
 
 $mapper = new MapArray;
