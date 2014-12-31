@@ -8,11 +8,11 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "MapArray\\":"src/"
+        "psr-4": {
+            "MapArray\\":"src/MapArray"
         }
     },  
     "require-dev": {
-        "phpunit/phpunit": "@stable"
+        "phpspec/phpspec": "2.1.0"
     } 
 }

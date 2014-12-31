@@ -1,0 +1,4 @@
+suites:
+  maparray_suite:
+    namespace: MapArray
+    src_path: src
